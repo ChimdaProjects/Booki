@@ -21,6 +21,7 @@ a {
 #container {
   width: 100%;
   max-width: 1400px;
+  padding: 0 20px
 }
 
 /************************************* NAVBAR *************************************/
@@ -40,7 +41,6 @@ a {
 
 .header-navigation-links {
   display: flex;
-  font-weight: bold
 }
 
 /*.header-navigation-accommodations{
@@ -64,7 +64,7 @@ a {
 
 
 /************************** VERSION MOBILE **************************/
-@media screen and (max-width:425px) {
+@media screen and (max-width:767px) {
   #container {
     padding: 0;
   }
@@ -90,12 +90,131 @@ a {
     text-align: center;
   }
 
-  .header-navigation-accommodations:hover,
+  .header-navigation-accommodations:hover{
+    border-top: none;
+    border-bottom: 3px solid #0065FC;
+    width: 50%;
+    color:#0065FC;
+  }
   .header-navigation-activities:hover {
     border-top: none;
-    border-bottom: 3px solid blue;
+    border-bottom: 3px solid #0065FC;
     width: 50%;
+    color:#0065FC;
 
   }
 
 }
+
+/************************************* FORM *************************************/
+.research {
+  margin: 0 10px;
+}
+.research-title {
+  font-size: 25px;
+}
+
+.research-form {
+  display: flex;
+  height: 40px;
+  width:100%;
+}
+
+.research-form i {
+  background-color: #F2F2F2;
+  width:40px;
+  border-radius: 8px 0 0 8px;
+}
+.research-form input {
+ height: 40px;
+ border:1px solid #F2F2F2;
+}
+::placeholder {
+  font-weight: bold;
+  color:black;
+  padding-left: 5px;
+}
+.research-form button {
+  position: relative;
+  border:#0065FC;
+  background-color: #0065FC;
+  border-radius: 0 8px 8px 0;
+  width: 120px;
+}
+
+.research-form button:hover {
+  background-color:#1e4075;
+  transition:all 2s;
+}
+
+.research-button-desktop {
+  position: absolute;
+  text-align: center;
+  left: 17px;
+  color:white;
+  padding: 0;
+  font-weight: bold;
+}
+.research-form button i {
+  visibility: hidden;
+
+}/* icone location */
+i.fa-location-dot {
+  padding: 11px 15px;
+}
+
+/************************** VERSION MOBILE **************************/
+@media screen and (max-width:767px) {
+  .research {
+    padding: 0;
+  }
+
+  .research-title {
+    font-size: 17px;
+  }
+
+  .research-content {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .research-form {
+    width: 100%; 
+    margin: 10px 0; 
+  }
+
+  .research-form i.fa-location-dot  {
+    background-color: #F2F2F2;
+    border-radius: 7px 0 0 7px;
+  }
+
+  .research-form input {
+    
+    padding: 0 20px 0 10px;
+  }
+
+  .research-button-desktop {
+    visibility: hidden;
+  }
+
+  .research-form button {
+    border-radius: 15px;
+    width: 40px;
+    left:-10px;
+  }
+
+  .research-form button i {
+    visibility: visible;
+    background-color: initial;
+  }
+
+  i.fa-magnifying-glass {
+    padding:0px 2px;
+    color:white;
+    margin:-5px;
+  }
+  
+  
+}
+
+
