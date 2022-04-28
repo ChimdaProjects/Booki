@@ -50,9 +50,8 @@ a {
 .header-navigation-accommodations,
 .header-navigation-activities {
   margin: 0 20px;
-  padding: 40px;
+  padding: 20px;
   width: 50%;
-
 }
 
 .header-navigation-accommodations:hover,
@@ -169,12 +168,8 @@ i.fa-location-dot {
     padding: 0;
   }
 
-  .research-title {
-    font-size: 17px;
-  }
-
   .research-content {
-    font-size: 12px;
+    font-size: 17px;
     margin-bottom: 20px;
   }
 
@@ -274,6 +269,7 @@ i.fa-location-dot {
 }
 .filters-information {
   display:flex;
+  margin-bottom: 20px;
 }
 
 .filters-information-content {
@@ -317,6 +313,204 @@ i.fa-location-dot {
   }
 }
 
+/************************************* ACCOMMODATiONS *************************************/
+#accommodations {
+  margin-bottom: 0%;
+  display: flex;
+  flex-direction: row;
+}
 
+.accommodations {
+  width:70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-around;
+  background-color: #F2F2F2;
+  border-radius: 20px;
+  padding:0% 2% ;
+}
+
+.accommodations-title {
+  padding-top: 15px;
+  margin-bottom: 0;
+}
+
+.accommodations-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  
+  justify-content: space-between;
+  
+}
+.accommodations-list-card {
+  border: solid 5px white;
+  border-radius: 20px;
+  width:28%;
+  background-color: white;
+  margin:1%;
+  max-height: 180px;
+  
+}
+.accommodations-list-card img{
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+  width: 100%;
+  max-height: 100px;
+}
+
+.accommodations-list-card a,
+.accommodations-more a {
+  text-decoration: none;
+  color:black;
+}
+
+.accommodations-list-card a:hover,
+.accommodations-more a:hover {
+  color:#0065FC;
+  opacity: 0.5;
+}
+
+.accommodations-list-card-name,
+.accommodations-list-card-price,
+.accommodations-list-card-stars {
+  padding: 0% 5%;
+  margin:1% 0;
+  
+}
+.accommodations-list-card-name {
+  font-size: 15px;
+}
+.accommodations-list-card-price, 
+.accommodations-list-card-stars {
+  font-size: 12px;
+}
+/*** ICONES ETOILES ***/
+i.fa-solid.fa-star {
+color:#0065FC;
+font-size: 80%;
+}
+
+i.fa-solid.fa-star-grey {
+  color:#F2F2F2;
+}
+
+/*** AFFICHER PLUS ***/
+.accommodations-more {
+  font-weight: bold;
+  padding-left: 1%;
+}
+
+
+/****************** MOST POPUPLAR ******************/
+.most-popular{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding:0 2%;
+  margin-left: 2%;
+  background-color: #F2F2F2;
+}
+
+/*** TITLE ***/
+.most-popular h2{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.most-popular i.fa-star-black{
+  color:black;
+}
+/*** LIST OF CARDS ***/
+.accommodations-list-popular {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  padding-left:0;
+}
+
+
+/*** CARD ***/
+.most-popular .accommodations-list-card{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 4% 0; 
+}
+
+.most-popular .accommodations-list-card{
+  width: 100%;
+  height: 100%;
+}
+.most-popular img {
+  width:50%;
+  border-radius: 25px 0 0 25px;
+  max-width: 110px ;
+  min-height: 120px;
+  
+}
+
+.most-popular a {
+  display: flex;
+  flex-direction: row;
+}
+
+.accommodations-list-card-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 2%;
+}
+
+.most-popular .accommodations-list-card-price {
+  margin-top:4%;
+}
+
+/**********************************************************/
+/**************** VERSION MOBILE **************************/
+/**********************************************************/
+@media screen and (max-width:767px){
+  #accommodations{
+
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .accommodations{
+    width: 100%;
+    background-color: white;
+  }
+
+  .accommodations-title{
+    margin-bottom: 4%;
+  }
+  .accommodations-list{
+    margin: 0;
+    width: 100%;
+    padding: 0 10px;
+    
+  }
+  .accommodations-list-card{
+    width: 100%;
+    box-shadow: 2px 2px  #F2F2F2;
+    margin-bottom: 15px;
+  }
+}
+/**********************************************************/
+@media screen and (max-width:767px){
+  .most-popular {
+    width: 100%;
+    border-radius: 0;
+    margin:0 0;
+  }
+  .accommodations-list-popular {
+    padding: 0 10px;
+  }
+  
+}
 
 
