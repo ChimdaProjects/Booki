@@ -325,7 +325,6 @@ i.fa-location-dot {
   width:70%;
   display: flex;
   flex-wrap: wrap;
-  align-items: space-around;
   background-color: #F2F2F2;
   border-radius: 20px;
   padding:0% 2% ;
@@ -345,7 +344,6 @@ i.fa-location-dot {
   
 }
 .accommodations-list-card {
-  border: solid 5px white;
   border-radius: 20px;
   width:28%;
   background-color: white;
@@ -647,11 +645,12 @@ footer {
     width: 100%;
     padding-left: 30px;
     position: absolute;
-    bottom:-3500px;
+    bottom:-670%;
     
   }
   .footer-category{
     width: 100%;
+    font-size: 12px;
   }
   .footer-link {
     width: 100%;
