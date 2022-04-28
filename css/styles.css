@@ -1,12 +1,101 @@
 /*Snippet pour les préfixes de box-sizing*/
 
 * {
-    box-sizing: border-box; /* Opera/IE 8+ */
-    -moz-box-sizing: border-box; /* Firefox, autres Gecko */
-    -webkit-box-sizing: border-box; /* Safari/Chrome, autres WebKit */
- }
- 
- body {
-   font-family: 'Raleway', sans-serif;
-   /*margin: 30px;*/
- }
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  -moz-box-sizing: border-box;
+  /* Firefox, autres Gecko */
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, autres WebKit */
+}
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+#container {
+  width: 100%;
+  max-width: 1400px;
+}
+
+/************************************* NAVBAR *************************************/
+.header-navigation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.header-navigation img {
+  width: 120px;
+  padding: 20px;
+
+}
+
+.header-navigation-links {
+  display: flex;
+  font-weight: bold
+}
+
+/*.header-navigation-accommodations{
+  border-top: 3px solid #0065FC;
+ }*/
+
+.header-navigation-accommodations,
+.header-navigation-activities {
+  margin: 0 20px;
+  padding: 40px;
+  width: 50%;
+
+}
+
+.header-navigation-accommodations:hover,
+.header-navigation-activities:hover {
+  border-top: 3px solid #0065FC;
+  color: #0065FC;
+}
+
+
+
+/************************** VERSION MOBILE **************************/
+@media screen and (max-width:425px) {
+  #container {
+    padding: 0;
+  }
+
+  .header-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-navigation-links {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+  }
+
+  .header-navigation-accommodations,
+  .header-navigation-activities {
+    margin: 0;
+    padding: 15px;
+    width: 50%;
+    text-align: center;
+  }
+
+  .header-navigation-accommodations:hover,
+  .header-navigation-activities:hover {
+    border-top: none;
+    border-bottom: 3px solid blue;
+    width: 50%;
+
+  }
+
+}
