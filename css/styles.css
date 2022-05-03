@@ -475,7 +475,7 @@ i.fa-solid.fa-star-grey {
 }
 
 /********************* FOOTER ****************************/
-footer {
+.footer {
   background-color: #F2F2F2;
   padding: 10px 10px 60px 10px;
   display: flex;
