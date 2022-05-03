@@ -1,0 +1,29 @@
+@media screen and (min-width: 769px) and (max-width:991px) {
+ #accommodations {
+     margin: 0 15px
+ }
+
+ .accommodations-title {
+     font-size: 17px;
+ }
+
+ .accommodations-list-card {
+    margin: 10px;
+ }
+
+ .accommodations-list-card img {
+    min-height: 100px;
+ }
+
+ .accommodations-list-card-name {
+     font-size: 12px;
+ }
+ 
+ .accommodations-list-card-price {
+    font-size: 10px;
+ }
+
+ .most-popular img {
+     min-width: 100px;
+ }
+}

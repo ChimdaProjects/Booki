@@ -1,0 +1,427 @@
+
+
+@media screen and (min-width: 0px) and (max-width: 425px) {
+    /************************** NAVBAR **************************/
+
+    #container {
+        padding: 0;
+    }
+
+    .header-navigation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-navigation-links {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        border-bottom: 1px solid lightgray;
+    }
+
+    .header-navigation-accommodations,
+    .header-navigation-activities {
+        margin: 0;
+        padding: 15px;
+        width: 50%;
+        text-align: center;
+    }
+
+    .header-navigation-accommodations:hover {
+        border-top: none;
+        border-bottom: 3px solid var(--blue);
+        width: 50%;
+        color: var(--blue);
+    }
+
+    .header-navigation-activities:hover {
+        border-top: none;
+        border-bottom: 3px solid var(--blue);
+        width: 50%;
+        color: var(--blue);
+
+    }
+
+    /************************** FORM **************************/
+    .research {
+        padding: 0;
+    }
+
+    .research-content {
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+
+    .research-form {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .research-form i.fa-location-dot {
+        background-color: #F2F2F2;
+        border-radius: 7px 0 0 7px;
+    }
+
+    .research-form input {
+
+        padding: 0 20px 0 10px;
+    }
+
+    .research-button-desktop {
+        visibility: hidden;
+    }
+
+    .research-form button {
+        border-radius: 15px;
+        width: 40px;
+        left: -10px;
+    }
+
+    .research-form button i {
+        visibility: visible;
+        background-color: initial;
+    }
+
+    i.fa-magnifying-glass {
+        padding: 0px 2px;
+        color: white;
+        margin: -5px;
+    }
+
+    /************************** FILTERS **************************/
+    .filters {
+        display: flex;
+        flex-direction: column;
+        align-items: initial;
+    }
+
+    .filters-list {
+        padding-left: 0;
+    }
+
+    .filters-option {
+        font-size: 12px;
+        margin: 8px 10px 8px 0;
+    }
+
+    .filters-information-content {
+        align-items: flex-start;
+    }
+
+    .filters-information-content-text {
+        font-size: 12px;
+    }
+
+    /**************** ACCOMMODATIONS **************************/
+    #accommodations {
+
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .accommodations {
+        width: 100%;
+        background-color: white;
+    }
+
+    .accommodations-title {
+        margin-bottom: 4%;
+    }
+
+    .accommodations-list {
+        margin: 0;
+        width: 100%;
+        padding: 0 10px;
+
+    }
+
+    .accommodations-list-card {
+        width: 100%;
+        box-shadow: 2px 2px var(--grey);
+        margin-bottom: 15px;
+    }
+
+    /************************** MOST POPULAR ********************************/
+
+    .most-popular {
+        width: 100%;
+        border-radius: 0;
+        margin: 0 0;
+    }
+
+    .accommodations-list-popular {
+        padding: 0 10px;
+    }
+
+    /************************** ACTIVITIES ********************************/
+    .activities-list {
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+    }
+
+    .column img {
+        max-width: 100%;
+        overflow: hidden;
+        object-fit: cover;
+        border-radius: 20px 20px 0 0;
+        max-height: 100px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    /******************** FOOTER *****************/
+
+    main {
+        position: relative;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 30px;
+        position: absolute;
+       /* bottom: -670%;*/
+       bottom : -400%
+
+    }
+
+    .footer-category {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .footer-link {
+        width: 100%;
+    }
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+    #container {
+        padding: 0;
+    }
+
+    .header-navigation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-navigation-links {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        border-bottom: 1px solid lightgray;
+    }
+
+    .header-navigation-accommodations,
+    .header-navigation-activities {
+        margin: 0;
+        padding: 15px;
+        width: 50%;
+        text-align: center;
+    }
+
+    .header-navigation-accommodations:hover {
+        border-top: none;
+        border-bottom: 3px solid var(--blue);
+        width: 50%;
+        color: var(--blue);
+    }
+
+    .header-navigation-activities:hover {
+        border-top: none;
+        border-bottom: 3px solid var(--blue);
+        width: 50%;
+        color: var(--blue);
+
+    }
+
+    /************************** FORM **************************/
+    .research {
+        padding: 0;
+    }
+
+    .research-content {
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+
+    .research-form {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .research-form i.fa-location-dot {
+        background-color: #F2F2F2;
+        border-radius: 7px 0 0 7px;
+    }
+
+    .research-form input {
+
+        padding: 0 20px 0 10px;
+    }
+
+    .research-button-desktop {
+        visibility: hidden;
+    }
+
+    .research-form button {
+        border-radius: 15px;
+        width: 40px;
+        left: -10px;
+    }
+
+    .research-form button i {
+        visibility: visible;
+        background-color: initial;
+    }
+
+    i.fa-magnifying-glass {
+        padding: 0px 2px;
+        color: white;
+        margin: -5px;
+    }
+
+    /************************** FILTERS **************************/
+    .filters {
+        display: flex;
+        flex-direction: column;
+        align-items: initial;
+    }
+
+    .filters-list {
+        padding-left: 0;
+    }
+
+    .filters-option {
+        font-size: 12px;
+        margin: 8px 10px 8px 0;
+    }
+
+    .filters-information-content {
+        align-items: flex-start;
+    }
+
+    .filters-information-content-text {
+        font-size: 12px;
+    }
+    /**************** ACCOMMODATIONS **************************/
+    #accommodations {
+
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .accommodations {
+        width: 100%;
+        background-color: white;
+    }
+
+    .accommodations-title {
+        margin-bottom: 4%;
+    }
+
+    .accommodations-list {
+        margin: 0;
+        width: 100%;
+        padding: 0 10px;
+
+    }
+
+    .accommodations-list-card {
+        width: 100%;
+        box-shadow: 2px 2px var(--grey);
+        margin-bottom: 15px;
+        
+        
+    }
+
+    .accommodations-list-card img {
+        min-width: 300px;
+        min-height: 130px;
+        object-fit: cover;
+       
+    }
+
+    .accommodations-list-card-content {
+        margin: 0.5%
+        
+    }
+
+    .accommodations-list-card-name, .accommodations-list-card-price, .accommodations-list-card-stars {
+        margin:0
+    }
+
+    /************************** MOST POPULAR ********************************/
+
+    .most-popular {
+        width: 100%;
+        border-radius: 0;
+        margin: 0 0;
+    }
+
+    .accommodations-list-popular {
+        padding: 0 10px;
+    }
+
+
+
+    /************************** ACTIVITIES ********************************/
+    .activities-list {
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+    }
+
+    .column img {
+        max-width: 100%;
+        overflow: hidden;
+        object-fit: cover;
+        border-radius: 20px 20px 0 0;
+        max-height: 100px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    /******************** FOOTER *****************/
+
+    main {
+        position: relative;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 30px;
+        position: absolute;
+       bottom : -550%
+
+    }
+
+    .footer-category {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .footer-link {
+        width: 100%;
+    }
+
+}
