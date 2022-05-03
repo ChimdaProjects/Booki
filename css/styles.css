@@ -231,8 +231,11 @@ i.fa-location-dot {
   display: flex;
   flex-direction: row;
 }
-
-.accommodations {
+.accommodation {
+  display: flex;
+  flex-direction: row;
+}
+.accommodations-marseille {
   width: 70%;
   display: flex;
   flex-wrap: wrap;
@@ -408,6 +411,10 @@ i.fa-solid.fa-star-grey {
  flex-direction: column;
 }
 
+.column a:hover{
+  color:var(--blue);
+  opacity: 0.5;
+}
 .activity {
   border-radius: 10px;
   box-shadow: 2px 2px 3px 3px var(--grey);

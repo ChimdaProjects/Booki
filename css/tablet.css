@@ -1,4 +1,4 @@
-@media screen and (min-width: 769px) and (max-width:991px) {
+@media screen and (min-width: 768px) and (max-width:991px) {
  #accommodations {
      margin: 0 15px
  }
@@ -25,5 +25,12 @@
 
  .most-popular img {
      min-width: 100px;
+ }
+
+ /******************* FOOTER ************/
+ .footer {
+     font-size: 15px;
+     display: flex;
+     justify-content: space-around
  }
 }
