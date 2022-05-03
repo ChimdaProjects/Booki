@@ -1,8 +1,8 @@
-:root {
+/*:root {
   --blue: #0065FC;
   --bluelight: #DEEBFF;
   --grey: #F2F2F2;
-}
+}*/
 
 /*Snippet pour les préfixes de box-sizing*/
 
@@ -70,13 +70,13 @@ a {
 
 .header-navigation-accommodations:hover,
 .header-navigation-activities:hover {
-  border-top: 3px solid var(--blue);
-  color: var(--blue);
+  border-top: 3px solid #0065FC;
+  color: #0065FC;
 }
 
 .header-navigation-accommodations a:hover,
 .header-navigation-activities a:hover {
-  color: var(--blue);
+  color: #0065FC;
 }
 
 /************************************* FORM *************************************/
@@ -95,14 +95,14 @@ a {
 }
 
 .research-form i {
-  background-color: var(--grey);
+  background-color: #F2F2F2;
   width: 40px;
   border-radius: 8px 0 0 8px;
 }
 
 .research-form input {
   height: 40px;
-  border: 1px solid var(--grey);
+  border: 1px solid #F2F2F2;
 }
 
 ::placeholder {
@@ -113,8 +113,8 @@ a {
 
 .research-form button {
   position: relative;
-  border: var(--blue);
-  background-color: var(--blue);
+  border: #0065FC;
+  background-color: #0065FC;
   border-radius: 0 8px 8px 0;
   width: 120px;
 }
@@ -170,7 +170,7 @@ i.fa-location-dot {
 .filters-option {
   display: flex;
   margin: 8px 20px;
-  border: 2px solid var(--grey);
+  border: 2px solid #F2F2F2;
   border-radius: 25px;
   align-items: center;
 }
@@ -187,8 +187,8 @@ i.fa-location-dot {
   border: lightgray;
   padding: 15px;
   border-radius: 25px;
-  color: var(--blue);
-  background-color: var(--bluelight);
+  color: #0065FC;
+  background-color: #DEEBFF;
   overflow: visible;
   text-align: center;
   width: 47px;
@@ -217,8 +217,8 @@ i.fa-location-dot {
 .fa-info {
   display: flex;
   font-size: 10px;
-  color: var(--blue);
-  border: 1px solid var(--grey);
+  color: #0065FC;
+  border: 1px solid #F2F2F2;
   border-radius: 25px;
   padding: 2px 5px;
   font-weight: bold;
@@ -239,7 +239,7 @@ i.fa-location-dot {
   width: 70%;
   display: flex;
   flex-wrap: wrap;
-  background-color: var(--grey);
+  background-color: #F2F2F2;
   border-radius: 20px;
   padding: 0% 2%;
 }
@@ -281,7 +281,7 @@ i.fa-location-dot {
 }
 
 .accommodations-list-card a:hover {
-  color: var(--blue);
+  color: #0065FC;
   opacity: 0.5;
 }
 
@@ -412,12 +412,12 @@ i.fa-solid.fa-star-grey {
 }
 
 .column a:hover{
-  color:var(--blue);
+  color:#0065FC;
   opacity: 0.5;
 }
 .activity {
   border-radius: 10px;
-  box-shadow: 2px 2px 3px 3px var(--grey);
+  box-shadow: 2px 2px 3px 3px #F2F2F2;
 }
 .activity-vieux-port img,
 .activity-parc img {

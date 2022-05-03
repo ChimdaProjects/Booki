@@ -26,7 +26,11 @@
  .most-popular img {
      min-width: 100px;
  }
-
+/*********************ACTIVITIES ***********************/
+.activities-title {
+    font-size: 17px;
+    padding-left: 15px;
+}
  /******************* FOOTER ************/
  .footer {
      font-size: 15px;
