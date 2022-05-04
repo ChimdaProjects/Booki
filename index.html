@@ -2,9 +2,11 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> <!-- encodage, jeu de caractères utilisé -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- permet de faire la compatibilité avec IE-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- taille de la page en fonction du terminal utilisé / initial-scale: zoom initial -->
+    <meta name="author" content="Chimda B"> <!-- indiquer l'auteur de la page -->
+    <meta name="description" content="Booki, un outil de plannification de vacances"> <!-- description de la page -->
     <title>Booki</title>
     <link rel="icon" href="./images/logo/favicon.ico" />
     <!-- Feuilles de style -->
@@ -24,7 +26,7 @@
 
 <body>
     <div id="container">
-        <!------------- NAVBAR ------------->
+        <!-- NAVBAR -->
         <header class="header">
             <nav class="header-navigation">
                 <a href="/" class="header-navigation-logo">
@@ -45,29 +47,30 @@
             </nav>
         </header>
         <main>
-            <!------------- FORM ------------->
+            <!-- FORM -->
             <section class="research">
-                <h1 class="research-title">
-                    Trouvez votre hébergement pour des vacances de rêve
-                </h1>
-                <p class="research-content">
-                    En plein centre ville ou en pleine nature
-                </p>
-                <form action="POST" class="research-form">
-                    <div class="research-form-location">
-                        <i class="fa-solid fa-location-dot"></i>
-                    </div>
-                    <div class="research-form-input">
-                        <input type="text" id="search" name="search" placeholder="Marseille, France" required>
-                    </div>
-                    <button type="submit">
-                        <span class="research-button-desktop">Rechercher</span>
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </button>
-
-                </form>
-
-                <!------------- FILTERS ------------->
+                <div class="research">
+                    <h1 class="research-title">
+                        Trouvez votre hébergement pour des vacances de rêve
+                    </h1>
+                    <p class="research-content">
+                        En plein centre ville ou en pleine nature
+                    </p>
+                    <form action="POST" class="research-form">
+                        <div class="research-form-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="research-form-input">
+                            <input type="text" id="search" name="search" placeholder="Marseille, France" required>
+                        </div>
+                        <button type="submit">
+                            <span class="research-button-desktop">Rechercher</span>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                </div>
+                
+                <!-- FILTERS -->
                 <div class="filters">
                     <p class="filters-title">Filtres</p>
                     <div class="filters-choice">
@@ -99,9 +102,7 @@
                     </p>
                 </div>
             </section>
-
-            <!------------- ACCOMMODATIONS AT MARSEILLE ------------->
-
+            <!-- ACCOMMODATIONS AT MARSEILLE -->
             <section id="accommodations">
                 <div class="accommodation">
                     <div class="accommodations-marseille">
@@ -113,7 +114,8 @@
                             <!-- Card: Auberge La Cannebière -->
                             <div class="accommodations-list-card">
                                 <a href="#">
-                                    <img src="./images/hebergements/auberge_la_cannebiere.jpg"
+                                    <img 
+                                        src="./images/hebergements/auberge_la_cannebiere.jpg"
                                         alt="photo of Auberge La Cannebiere">
                                     <div class="accommodations-list-card-content">
                                         <h3 class="accommodations-list-card-name">
@@ -133,7 +135,9 @@
                             <!-- Card: Hôtel du Port -->
                             <div class="accommodations-list-card">
                                 <a href="#">
-                                    <img src="./images/hebergements/hotel-du-port.jpg" alt="photo of Hotel du port">
+                                    <img 
+                                        src="./images/hebergements/hotel-du-port.jpg" 
+                                        alt="photo of Hotel du port">
                                     <div class="accommodations-list-card-content">
                                         <h3 class="accommodations-list-card-name">
                                             Hôtel du port
@@ -152,7 +156,8 @@
                             <!-- Card: Hotel Les Mouettes -->
                             <div class="accommodations-list-card">
                                 <a href="#">
-                                    <img src="./images/hebergements/hotel_les_mouettes.jpg"
+                                    <img 
+                                        src="./images/hebergements/hotel_les_mouettes.jpg"
                                         alt="photo of Hotel Les Mouettes">
                                     <div class="accommodations-list-card-content">
                                         <h3 class="accommodations-list-card-name">
@@ -172,7 +177,9 @@
                             <!-- Card: Hôtel de la mer -->
                             <div class="accommodations-list-card">
                                 <a href="#">
-                                    <img src="./images/hebergements/hotel_de_la_mer.jpg" alt="photo of Hôtel de la mer">
+                                    <img 
+                                        src="./images/hebergements/hotel_de_la_mer.jpg" 
+                                        alt="photo of Hôtel de la mer">
                                     <div class="accommodations-list-card-content">
                                         <h3 class="accommodations-list-card-name">
                                             Hôtel de la mer
@@ -191,7 +198,9 @@
                             <!-- Card: Auberge Le Panier -->
                             <div class="accommodations-list-card">
                                 <a href="#">
-                                    <img src="./images/hebergements/auberge_le_panier.jpg" alt="photo of Auberge Le Panier">
+                                    <img 
+                                        src="./images/hebergements/auberge_le_panier.jpg" 
+                                        alt="photo of Auberge Le Panier">
                                     <div class="accommodations-list-card-content">
                                         <h3 class="accommodations-list-card-name">
                                             Auberge Le Panier
@@ -210,7 +219,9 @@
                             <!-- Card: Hôtel chez Amina -->
                             <div class="accommodations-list-card">
                                 <a href="#">
-                                    <img src="./images/hebergements/hotel_chez_amina.jpg" alt="photo of Hôtel chez Amina">
+                                    <img 
+                                        src="./images/hebergements/hotel_chez_amina.jpg" 
+                                        alt="photo of Hôtel chez Amina">
                                     <div class="accommodations-list-card-content">
                                         <h3 class="accommodations-list-card-name">
                                             Hötel chez Amina
@@ -229,7 +240,7 @@
                         </div>
                         <p class="accommodations-more"><a href="#">Afficher plus</a></p>
                     </div>
-                    <!------------- MOST POPULAR ------------->
+                    <!-- MOST POPULAR -->
                     <div class="most-popular">
                         <h2 class="accommodations-title">
                             Les plus populaires
@@ -240,7 +251,8 @@
                             <!-- Card: Hôtel Le soleil du matin -->
                             <div class="accommodations-list-card">
                                 <a href="#">
-                                    <img src="./images/hebergements/hotel_le_soleil.jpg"
+                                    <img 
+                                        src="./images/hebergements/hotel_le_soleil.jpg"
                                         alt="photo of Hôtel Le soleil du matin">
                                     <div class="accommodations-list-card-content">
                                         <div>
@@ -262,7 +274,8 @@
                             <!-- Card: Au coeur de l'eau Chambres d'hôtes -->
                             <div class="accommodations-list-card">
                                 <a class="accommodations-list-link" href="#">
-                                    <img src="./images/hebergements/au_coeur_de_l_eau.jpg"
+                                    <img 
+                                        src="./images/hebergements/au_coeur_de_l_eau.jpg"
                                         alt="photo of Au coeur de l'eau Chambres d'hôtes">
                                     <div class="accommodations-list-card-content">
                                         <div>
@@ -284,7 +297,8 @@
                             <!-- Card: Hôtel Tout bleu et Blanc -->
                             <div class="accommodations-list-card">
                                 <a href="#">
-                                    <img src="./images/hebergements/hotel_tout_bleu.jpg"
+                                    <img 
+                                        src="./images/hebergements/hotel_tout_bleu.jpg"
                                         alt="photo of Hôtel Tout bleu et Blanc">
                                     <div class="accommodations-list-card-content">
                                         <div>
@@ -316,9 +330,10 @@
                         <div class="column">
                             <div class="activity activity-vieux-port">
                                 <a href="">
-
-                                    <img src="./images/activites/vieux_port.jpg" alt="activity of Vieux Port">
-
+                                    <img 
+                                        src="./images/activites/vieux_port.jpg" 
+                                        alt="activity of Vieux Port"
+                                    >
                                     <div class="text">
                                         <p>Vieux Port</p>
                                     </div>
@@ -328,7 +343,10 @@
                         <div class="column">
                             <div class="activity activity-fort">
                                 <a href="">
-                                    <img src="./images/activites/fort_pomegues.jpg" alt="activity of Fort de Pomègues">
+                                    <img 
+                                        src="./images/activites/fort_pomegues.jpg" 
+                                        alt="activity of Fort de Pomègues"
+                                    >
                                     <div class="text">
                                         <p>Fort de Pomègues</p>
                                     </div>
@@ -336,9 +354,10 @@
                             </div>
                             <div class="activity activity-iles">
                                 <a href="">
-
-                                    <img src="./images/activites/iles_frioul.jpg" alt="activity of Iles de Frioul">
-
+                                    <img 
+                                        src="./images/activites/iles_frioul.jpg" 
+                                        alt="activity of Iles de Frioul"
+                                    >
                                     <div class="text">
                                         <p>Iles de Frioul</p>
                                     </div>
@@ -348,10 +367,10 @@
                         <div class="column">
                             <div class="activity activity-parc">
                                 <a href="">
-
-                                    <img src="./images/activites/parc_national_calanques.jpg"
-                                        alt="activity of Parc National des Calanques">
-
+                                    <img 
+                                        src="./images/activites/parc_national_calanques.jpg"
+                                        alt="activity of Parc National des Calanques"
+                                    >
                                     <div class="text">
                                         <p>Parc National des Calanques</p>
                                     </div>
@@ -361,10 +380,9 @@
                         <div class="column">
                             <div class="activity activity-notre-dame">
                                 <a href="">
-
                                     <img src="./images/activites/notre-dame-2.jpg"
-                                        alt="activity of Notre-Dame-de-la-Garde">
-
+                                        alt="activity of Notre-Dame-de-la-Garde"
+                                    >
                                     <div class="text">
                                         <p>Notre-Dame-de-la-Garde</p>
                                     </div>
@@ -372,9 +390,10 @@
                             </div>
                             <div class="activity activity-parc-longchamp">
                                 <a href="">
-
-                                    <img src="./images/activites/parc_longchamp.jpg" alt="activity of Parc Longchamp">
-
+                                    <img 
+                                        src="./images/activites/parc_longchamp.jpg" 
+                                        alt="activity of Parc Longchamp"
+                                    >
                                     <div class="text">
                                         <p>Parc Longchamp</p>
                                     </div>
@@ -386,6 +405,7 @@
             </section>
         </main>
         <footer>
+            <!-- footer -->
             <div class="footer">
                 <div class="footer-category">
                     <h4 class="footer-title">A propos</h4>
