@@ -45,7 +45,7 @@
 
     /************************** FORM **************************/
     .research {
-        padding: 0;
+        padding: 10px;
     }
 
     .research-content {
@@ -260,7 +260,8 @@
 
     /************************** FORM **************************/
     .research {
-        padding: 0;
+        padding: 10px;
+      
     }
 
     .research-content {

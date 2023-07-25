@@ -20,8 +20,6 @@
 
 }
 
-
-
 a {
   text-decoration: none;
   color: initial;
@@ -73,17 +71,16 @@ a {
 .header-navigation-accommodations:hover,
 .header-navigation-activities:hover {
   border-top: 3px solid #0065FC;
-  color: #0065FC;
 }
 
-.header-navigation-accommodations a:hover,
-.header-navigation-activities a:hover {
+.header-navigation-accommodations:hover > a,
+.header-navigation-activities:hover > a {
   color: #0065FC;
 }
 
 /************************************* FORM *************************************/
 .research {
-  margin: 0 10px;
+  margin: 0px;
 }
 
 .research-title {
@@ -240,6 +237,7 @@ i.fa-location-dot {
 .accommodations-marseille {
   width: 70%;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   background-color: #F2F2F2;
   border-radius: 20px;
@@ -247,8 +245,8 @@ i.fa-location-dot {
 }
 
 .accommodations-title {
-  padding-top: 15px;
-  margin-bottom: 0;
+  padding: 15px 0 15px 1%;
+  /*margin-bottom: 0;*/
 }
 
 .accommodations-list {
@@ -394,10 +392,16 @@ i.fa-solid.fa-star-grey {
   margin: 40px 0;
 }
 
+.activities-title {
+  padding: 0% 2%;
+  margin-bottom: 40px;
+}
 .activities-list {
   display: flex;
   justify-content: space-between;
   height: 450px;
+  margin: 0 4% 0 0;
+ 
 }
 
 .column {
@@ -406,6 +410,7 @@ i.fa-solid.fa-star-grey {
   justify-content: space-between;
   width: 25%;
   margin: 0 15px;
+
 }
 .column a {
  height: 100%;
