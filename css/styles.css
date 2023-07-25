@@ -57,10 +57,6 @@ a {
   display: flex;
 }
 
-/*.header-navigation-accommodations{
-  border-top: 3px solid #0065FC;
- }*/
-
 .header-navigation-accommodations,
 .header-navigation-activities {
   margin: 0 20px;
@@ -229,10 +225,13 @@ i.fa-location-dot {
   margin-bottom: 0%;
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 .accommodation {
   display: flex;
   flex-direction: row;
+  width: 100%;
+  
 }
 .accommodations-marseille {
   width: 70%;
@@ -253,7 +252,6 @@ i.fa-location-dot {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-
   justify-content: space-between;
 
 }
@@ -390,6 +388,7 @@ i.fa-solid.fa-star-grey {
 /****************** ACTIVITIES ******************/
 #activities {
   margin: 40px 0;
+  width: 100%;
 }
 
 .activities-title {
@@ -397,10 +396,10 @@ i.fa-solid.fa-star-grey {
   margin-bottom: 40px;
 }
 .activities-list {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   height: 450px;
-  margin: 0 4% 0 0;
  
 }
 
